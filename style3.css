@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-clip: background;
+    font-family: Verdana;
+    color: white;
+}
+
+header, main, footer {
+    background-image: linear-gradient(to right, rgb(50, 50, 50), black);
+    text-align: center;
+}
+
+header img {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+footer a {
+    background-color: white;
+    color: rgb(235 10 30);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.text {
+    color: rgb(235 10 30);
+}
+
+.text2 {
+    color: rgb(0 255 0);
+}
+
+
+
+main img:hover {
+    border: 5px solid rgb(235 10 30);
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+
+div {
+    background-image: linear-gradient(to right, darkred, rgb(50, 50, 50));
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin: 20px 0px;
+    padding: 20px 0px;
+    background-clip: background;
+    text-align: center;
+}
+
+nav a {
+    background-color: white;
+    color: rgb(235 10 30);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(235 10 30);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.animated {
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% { color: blue; }
+    25% { color: green; }
+    50% { color: yellow; }
+    75% { color: orange; }
+    100% { color: red; }
+}
